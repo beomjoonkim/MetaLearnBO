@@ -1,5 +1,5 @@
 import numpy as np
-from functions_def import ContinuousObjFcn
+from functions import ContinuousObjFcn
 
 # Synthetic objective funtion for testing the continuous case
 class SynthObjFcn(ContinuousObjFcn):

@@ -8,11 +8,6 @@ from keras.callbacks import *
 from keras import optimizers
 import keras.backend as K
 
-try:
-    from conveyor_belt_env import ConveyorBelt
-except:
-    pass
-
 
 class Function(object):
     def __init__(self):
@@ -64,16 +59,6 @@ class ContinuousObjFcn(Function):
 
     def __call__(self, x):
         raise NotImplemented
-
-
-class CbeltObjFcn(ContinuousObjFcn):
-    def __init__(self, domain, scaler):
-        super(CbeltObjFcn, self).__init__(domain)
-        self.problem = ConveyorBelt(scaler)
-        self.scaler = scaler
-
-    def __call__(self, x):
-        return self.problem.execute_plan(x)
 
 
 def cosine_activation(x):

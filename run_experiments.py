@@ -151,7 +151,7 @@ def make_save_dir(args):
 
 def get_optimizer_for_discrete_domain(args, xvals, test_vals, Dprior, obj_fcn):
     """
-    :param args: contains configurations for
+    :param args: contains the problem configurations
     :param xvals: evaluated x values
     :param test_vals: test function values
     :param Dprior: prior function evaluations on xvals
@@ -278,7 +278,7 @@ def main():
 
     if args.domain == 'ag' or args.domain == 'gpb':
         run_discrete_domain(args, xvals, test_vals, Dprior, savedir)
-    elif args.domain == 'cbelt' or args.domain == 'synth':
+    elif args.domain == 'synth':
         run_continuous_domain(args, xvals, Dprior, savedir)
     else:
         print 'wrong domain name'
