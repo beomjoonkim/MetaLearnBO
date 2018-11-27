@@ -38,4 +38,4 @@ Please cite our work if you would like to use the code.
 * Regret bounds for meta Bayesian optimization with 
 an unknown Gaussian process prior 
 (Zi Wang*, Beomjoon Kim*, and Leslie Pack Kaelbling), 
-In Neural Information Processing Systems (NIPS)}, 2018.
+In Neural Information Processing Systems (NIPS), 2018.
