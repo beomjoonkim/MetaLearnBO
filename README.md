@@ -29,7 +29,7 @@ Please cite our work if you would like to use the code.
 @inproceedings{wangkimNIPS2018,
     author={Zi Wang and Beomjoon Kim and Leslie Pack Kaelbling},
     title={Regret bounds for meta Bayesian optimization with an unknown Gaussian process prior},
-    booktitle={Neural Information Processing Systems (NeurlIPS)},
+    booktitle={Neural Information Processing Systems (NeurIPS)},
     year={2018},
     url={http://people.csail.mit.edu/beomjoon/publications/zi-kim-nips18.pdf}
 }
