@@ -24,7 +24,7 @@ TLSM-BO in our paper, rand refers to uniform random strategy, and plain refers t
 estimation.
 
 ## Citation
-Please cite our work if you would like to use the code.
+If you use our code, please consider citing our paper.
 ```
 @inproceedings{wangkimNIPS2018,
     author={Zi Wang and Beomjoon Kim and Leslie Pack Kaelbling},
